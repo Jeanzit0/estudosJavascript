@@ -6,3 +6,4 @@ todas as atividades tem seu problema, contrução e solução;
 cada atividade é separada por uma sequência >=5 de '/';
 cada separação de assunto é feita por uma sequência >=3 de '//--', seguido o mesmo durante 3 linhas.
 
+Infelizmente algumas pastas se perderam durante o percurso.
