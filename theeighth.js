@@ -1,8 +1,6 @@
 // // //////////////////////////////////////////////////////////////////
 // var prompt = require('prompt-sync')();
 
-const { descobrir_par } = require('./thetenth');
-
 // let vetVazio = Array();
 // let troco = 0;
 // let vlrTotal = 0;
@@ -24,7 +22,7 @@ const { descobrir_par } = require('./thetenth');
 
 // // console.log(`Troco: R$ ${troco}`);
 //////////////////////////////////////////////////////////////////
-
+//caixa registradora rudimentar
 
 
 
@@ -60,6 +58,7 @@ const { descobrir_par } = require('./thetenth');
 // console.log(numMedio);
 // console.log(numMaior);
 //////////////////////////////////////////////////////////////////
+//organiza 3 número em ordem crescente
 
 
 
@@ -93,7 +92,7 @@ const { descobrir_par } = require('./thetenth');
 // console.log(`Pior salto: ${numMenor}`);
 // console.log(`Média dos saltos: ${numMedia}`);
 //////////////////////////////////////////////////////////////////
-
+//mostra o maior, pior e média dos saltos de diversos atletas, além de registrar cada um
 
 
 /////////////////////////////////////////////////////////////////////
@@ -166,16 +165,23 @@ const { descobrir_par } = require('./thetenth');
 // console.log(`Código: ${vetCod[conta]}`)
 // console.log(`Altura: ${vetAlt[conta]}\n\n`)
 /////////////////////////////////////////////////////////////////////
-var prompt = require('prompt-sync')();
+//registra cada cliente de uma acedmia e mostra todos os dados do mais gordo (peso, cod, nome), mais magro (peso, cod, nome), mais alto (altura, cod, nome), mais baixo (altura, cod, nome)
 
-let vlr = Number (prompt('Qual número você deseja saber se é par?'))
 
-if(descobrir_par(vlr)){
-    console.log(`É par`);
-}else{
-    console.log(`É impar`);
-}
+//////////////////////////////////////////////////////////////////////////
+// const { descobrir_par } = require('./thetenth'); // function biblioteca
 
+// var prompt = require('prompt-sync')();
+
+// let vlr = Number (prompt('Qual número você deseja saber se é par?'))
+
+// if(descobrir_par(vlr)){
+//     console.log(`É par`);
+// }else{
+//     console.log(`É impar`);
+// }
+//////////////////////////////////////////////////////////////////////////
+//verificar se é par em function (function no thetenth.js)
 
     
 
