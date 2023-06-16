@@ -26,14 +26,16 @@
 //--//--//--//--//--//--//--//--//--//--//--//--//--//
 //--//--//--//--//--//--//--//--//--//--//--//--//--//
 
-
+////////////////////////////////////////////
 // function saudacao(){
 //     console.log('ola a todos')
 // }
 // saudacao() //criar e chamar uma função
+////////////////////////////////////////////
 
-/////////////////////////////////////////////////
 
+
+///////////////////////////////////////////////////////////////////////////
 // var prompt = require('prompt-sync')();
 
 // function calcular_aumento_salarial(salario){//>>(salario,percentual) 
@@ -56,34 +58,38 @@
 // module.exports={
 //     calcular_aumento_salarial; //faz eu exportar funções
 // }
+///////////////////////////////////////////////////////////////////////////
+//calcular um aumento salarial com function
 
-/////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
 //calcule o aumento de salário de 25%
 
-function descobrir_par(numero){
+// function descobrir_par(numero){
 
-    if(numero%2 == 0){
-        return true;
-    }else{
-        return false;
-    }
-}
+//     if(numero%2 == 0){
+//         return true;
+//     }else{
+//         return false;
+//     }
+// }
 
-var prompt = require('prompt-sync')();
+// var prompt = require('prompt-sync')();
 
-let vlr = Number (prompt('Qual número você deseja saber se é par?'))
+// let vlr = Number (prompt('Qual número você deseja saber se é par?'))
 
-if(descobrir_par(vlr)){
-    console.log(`É par`);
-}else{
-    console.log(`É impar`);
-}
-
-
-module.exports={
-    descobrir_par
-}
+// if(descobrir_par(vlr)){
+//     console.log(`É par`);
+// }else{
+//     console.log(`É impar`);
+// }
 
 
+// module.exports={
+//     descobrir_par
+// }
+/////////////////////////////////////////////////////////////////////////////
+//criando e exportando uma ação para ver se o número é par
 
 
