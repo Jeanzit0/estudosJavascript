@@ -22,6 +22,10 @@ for(i=1;i>0;i++){
         switch(code){
             case 100:
                 multi = Number (prompt(`Quantidade: `));
+                if(typeof multi != Number){
+                    console.log('Você digitou um número inválido, tente novamente.')
+                    break;
+                }
                 cont = vetorPreco[0]*multi;
                 vetQnt0 += multi;
                 vetPrint[0] = ("cod 100 qnt " + `${vetQnt0} R$ ${cont.toFixed(2)}`);
@@ -29,6 +33,10 @@ for(i=1;i>0;i++){
                 break;
             case 101:
                 multi = Number (prompt(`Quantidade: `));
+                if(typeof multi != Number){
+                    console.log('Você digitou um número inválido, tente novamente.')
+                    break;
+                }
                 cont = vetorPreco[1]*multi;
                 vetQnt1 += multi;
                 vetPrint[1] = ("cod 101 qnt " + `${vetQnt1} R$ ${cont.toFixed(2)}`);
@@ -36,6 +44,10 @@ for(i=1;i>0;i++){
                 break;
             case 102:
                 multi = Number (prompt(`Quantidade: `));
+                    if(typeof multi != Number){
+                        console.log('Você digitou um número inválido, tente novamente.')
+                        break;
+                    }
                 cont = vetorPreco[2]*multi;
                 vetQnt2 += multi;
                 vetPrint[2] = ("cod 102 qnt " + `${vetQnt2} R$ ${cont.toFixed(2)}`);
@@ -43,6 +55,10 @@ for(i=1;i>0;i++){
                 break;
             case 103:
                 multi = Number (prompt(`Quantidade: `));
+                if(typeof multi != Number){
+                    console.log('Você digitou um número inválido, tente novamente.')
+                    break;
+                }
                 cont = vetorPreco[3]*multi;
                 vetQnt3 += multi;
                 vetPrint[3] = ("cod 103 qnt " + `${vetQnt3} R$ ${cont.toFixed(2)}`);
@@ -50,6 +66,10 @@ for(i=1;i>0;i++){
                 break;
             case 104:
                 multi = Number (prompt(`Quantidade: `));
+                if(typeof multi != Number){
+                    console.log('Você digitou um número inválido, tente novamente.')
+                    break;
+                }
                 cont = vetorPreco[4]*multi;
                 vetQnt4 += multi;
                 vetPrint[4] = ("cod 104 qnt " + `${vetQnt4} R$ ${cont.toFixed(2)}`);
@@ -57,6 +77,10 @@ for(i=1;i>0;i++){
                 break;
             case 105:
                 multi = Number (prompt(`Quantidade: `));
+                if(typeof multi != Number){
+                    console.log('Você digitou um número inválido, tente novamente.')
+                    break;
+                }
                 cont = vetorPreco[5]*multi;
                 vetQnt5 += multi;
                 vetPrint[5] = ("cod 105 qnt " + `${vetQnt5} R$ ${cont.toFixed(2)}`);
